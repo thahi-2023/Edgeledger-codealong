@@ -1,0 +1,136 @@
+*
+{
+    margin: 0; 
+    padding: 0;
+    background-color: rgba(200, 171, 230, 0.349);
+}
+.header{
+  height: 55px;   
+  display: flex;
+   flex-direction: row;  
+   justify-content: space-between;
+}
+.left-section{
+ 
+ display: flex;
+ align-items: center;
+}
+.hamburger-menu{
+  height: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+   
+}
+.imbd-logo{
+    width: 70px;
+    height: 50px;
+}
+.middle-section{
+    
+    flex: 1;
+    margin-left:  40px;
+     margin-right: 20px;
+     max-width: 500px;
+     display: flex;
+     align-items: center;
+}
+.search-bar{
+  flex: 1; 
+  padding: 12px; 
+  
+}
+.right-section{
+    
+    width: 300px;
+}
+
+.movie-still img {
+    width: 30%; 
+    height: 10%;
+    object-fit: contain;
+    object-position: bottom;
+    margin-right: 20px;
+     
+    
+}
+.header-btn {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float:right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+}
+.movie-details {
+    margin: 3% 0;
+}
+.left-box {
+    color: black;
+    margin: 15px 0;
+    padding:20px ;
+}
+.button1, .button2, .button3{
+   background-color: purple;
+   border: none;
+   border-radius: 8px;
+   color: beige; 
+   padding: 10px 24px;
+   margin-right: 4px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+   
+}
+.button1:hover, .button2:hover, .button3:hover{
+    background-color: plum;
+}
+.Actor{
+    font-size: x-large;
+   color: black; 
+}
+.casting img {
+    max-width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.left-box a {
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 35px;
+    color: #181414 !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+.download-btn {
+    border: 1px solid #7c2424 !important;
+    background: transparent !important;
+}
+.fa {
+    margin: 0 5px;
+}
+.series h3{
+    color: brown;
+}
+.series img {
+    width: 10%;
+    height: auto;
+    margin-top: 15px; 
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 10px;
+
+}
+.series img:hover{
+ transform: translateY(-10px);
+}
+
+
+
